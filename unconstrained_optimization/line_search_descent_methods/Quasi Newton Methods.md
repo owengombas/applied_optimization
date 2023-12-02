@@ -1,0 +1,5 @@
+- **Principle**: Approximates the Hessian matrix used in Newton's method, thus avoiding the computational cost of calculating the exact second derivatives.
+- **Variants**: BFGS, L-BFGS are popular algorithms in this category.
+- **Update Rule**: Similar to Newton's method but uses an approximation of the Hessian.
+- **Suitability**: Balances between the efficiency of GD and the faster convergence of Newton's method, particularly useful for medium to large-scale problems.
+- **Advantage**: Less computational overhead than Newton's method and better convergence properties than GD in many cases.

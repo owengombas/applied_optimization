@@ -1,0 +1,4 @@
+- **Principle**: Uses both the first and second derivatives (gradient and Hessian) of the objective function to find the optimum.
+- **Update Rule**: \( \theta = \theta - H^{-1} \nabla f(\theta) \), where \( H \) is the Hessian matrix of second derivatives.
+- **Suitability**: Offers faster convergence near the optimum for well-behaved functions.
+- **Limitation**: Computationally intensive due to the Hessian calculation; can be problematic if the Hessian is not positive definite or is hard to compute.

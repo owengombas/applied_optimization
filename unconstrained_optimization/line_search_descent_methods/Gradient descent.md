@@ -1,0 +1,4 @@
+- **Principle**: GD updates the parameters in the opposite direction of the gradient of the objective function with respect to the parameters.
+- **Update Rule**: \( \theta = \theta - \alpha \nabla f(\theta) \), where \( \theta \) is the parameter vector, \( \alpha \) is the learning rate, and \( \nabla f(\theta) \) is the gradient of the function.
+- **Suitability**: Works well for large-scale problems due to its simplicity and scalability.
+- **Limitation**: Convergence can be slow; highly dependent on the learning rate.
